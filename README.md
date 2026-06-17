@@ -15,9 +15,10 @@ The system processes dynamic patient clinical inputs, applies real-time preproce
 - `scaler.pkl`: The saved `StandardScaler` from the training notebook to normalize numeric inputs.
 - `background_data.csv`: Reference dataset utilized by the SHAP explainer for baseline calculations.
 - `requirements.txt`: List of dependencies required for cloud deployment.
+- `code_flow.ipynb`: The whole code flow for this project (only for local).
 
 ## 🛠️ Local Installation & Running
-To run this project locally, clone the repository, install the dependencies, and start the Streamlit server:
+To build the streamlit locally, clone the repository, install the dependencies, and start the Streamlit server:
 
 ```bash
 pip install -r requirements.txt
